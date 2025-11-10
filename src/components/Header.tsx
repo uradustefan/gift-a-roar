@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between px-4">
-        <Link to="/" className="flex items-center gap-2 group">
-          <Gift className="h-8 w-8 text-primary group-hover:animate-float" />
-          <span className="text-2xl font-bold bg-gradient-hero bg-clip-text text-transparent">
-            Giveaora
+        <Link to="/" className="flex items-center gap-2.5 group">
+          <Gift className="h-7 w-7 text-primary animate-glow-pulse" />
+          <span className="text-2xl font-extrabold bg-gradient-hero bg-clip-text text-transparent tracking-tight">
+            GIVAORA
           </span>
         </Link>
 
